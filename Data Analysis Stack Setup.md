@@ -20,7 +20,9 @@
   - `jupyter labextension list`
   - `jupyter labextension install my-extension`
   - `jupyter labextension uninstall my-extension`
-
 - build: `jupyter lab clean && jupyter lab build`
-
 - run: `jupyter lab @`
+
+## nbconvert
+`jupyter nbconvert`
+- `--no-input` - omit imput cells
