@@ -1,3 +1,18 @@
+- [General](#general)
+  - [Navigation](#navigation)
+  - [Editing](#editing)
+    - [Inserting](#inserting)
+    - [Changing](#changing)
+    - [Deleting](#deleting)
+    - [Cut and paste](#cut-and-paste)
+    - [Blocks](#blocks)
+    - [Global](#global)
+  - [Searching](#searching)
+  - [Files](#files)
+  - [Windows](#windows)
+  - [Source Navigation](#source-navigation)
+  - [Show local changes](#show-local-changes)
+
 ## General
 
   * Nearly all commands can be preceded by a number for a repeat count. eg. **5dd** delete 5 lines
