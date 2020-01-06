@@ -1,3 +1,13 @@
+## Conda
+
+- environments
+  - list: `conda env list`
+  - create: `conda create --name <envname> pyton=3.6 matplotlib`
+- packages
+  - search online: `conda search <package-name>`
+  - list installed: `conda list` as URLs: `--explicit`
+  - add conda-forge: `conda config --add channels conda-forge`
+
 
 ## ipython kernels
 
