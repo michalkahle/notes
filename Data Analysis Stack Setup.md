@@ -1,21 +1,27 @@
-## Conda
+## apt
+- find online: `apt search <package_name>
+- show details: `apt show <package_name>
+- install, remove, remove with config: `apt install <package_name>`, `apt remove <package_name>`, `apt purge <package_name>`
+- refresh repo index: `apt update`
+- upgrade all upgradeable: `apt upgrade`
+- remove unnecessary: `apt autoremove`
 
+## Conda
+- add conda-forge to channels with lower priority than `default`: `conda config --append channels conda-forge`
 - environments
   - list: `conda env list`
   - create: `conda create --name <envname> pyton=3.6 matplotlib`
+  - remove: `conda remove --name <envname> --all`
 - packages
   - search online: `conda search <package-name>`
   - list installed: `conda list` as URLs: `--explicit`
-  - add conda-forge: `conda config --add channels conda-forge`
-
+  - list changes: `conda list --revisions`
 
 ## ipython kernels
-
 - list: `jupyter kernelspec list`
 - install Python kernel: `conda install ipykernel` followed by `python -m ipykernel install --user --name <env-name>`
 
 ## Jupyterlab
-
 - manage extensions:
   - `jupyter labextension list`
   - `jupyter labextension install my-extension`
@@ -26,3 +32,8 @@
 ## nbconvert
 `jupyter nbconvert`
 - `--no-input` - omit imput cells
+
+## TeX
+- install Tex live: `sudo apt install texlive` or `sudo apt install texlive-full` (> 4GB!)
+- update: `tlmgr update --self`, then `tlmgr update --all`
+- install package: `tlmgr install <package_name>
