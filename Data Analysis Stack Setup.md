@@ -36,4 +36,4 @@
 ## TeX
 - install Tex live: `sudo apt install texlive` or `sudo apt install texlive-full` (> 4GB!)
 - update: `tlmgr update --self`, then `tlmgr update --all`
-- install package: `tlmgr install <package_name>
+- install package: `tlmgr install <package_name>`
