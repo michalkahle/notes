@@ -37,3 +37,33 @@
 - install Tex live: `sudo apt install texlive` or `sudo apt install texlive-full` (> 4GB!)
 - update: `tlmgr update --self`, then `tlmgr update --all`
 - install package: `tlmgr install <package_name>`
+### Citations
+Bibliography file
+```bibtex
+@misc{ Nobody06,
+       author = "Nobody Jr",
+       title = "My Article",
+       year = "2006" }
+```
+LaTeX file:
+```latex
+\documentclass[11pt]{article}
+\usepackage{cite}
+
+\begin{document}
+
+\title{My Article}
+\author{Nobody Jr.}
+\date{Today}
+\maketitle
+
+Blablabla said Nobody ~\cite{Nobody06}.
+
+\bibliography{mybib}{}
+\bibliographystyle{plain}
+\end{document}
+```
+
+
+
+
