@@ -31,8 +31,9 @@
 
 ## nbconvert
 `jupyter nbconvert`
+- `--to html` or `--to pdf`
 - `--no-input` - omit imput cells
-
+- `--template printviewlatex.tplx`
 ## TeX
 - install Tex live: `sudo apt install texlive` or `sudo apt install texlive-full` (> 4GB!)
 - update: `tlmgr update --self`, then `tlmgr update --all`
