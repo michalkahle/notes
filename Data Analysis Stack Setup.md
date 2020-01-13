@@ -17,11 +17,15 @@
   - list installed: `conda list` as URLs: `--explicit`
   - list changes: `conda list --revisions`
 
-## ipython kernels
+## Jupyter
+### install
+- `conda install jupyter jupyter_contrib_nbextensions`
+- `python3 -m pip install cite2c` then `python3 -m cite2c.install` and restart notebook
+### kernels
 - list: `jupyter kernelspec list`
 - install Python kernel: `conda install ipykernel` followed by `python -m ipykernel install --user --name <env-name>`
 
-## Jupyterlab
+### Jupyterlab
 - manage extensions:
   - `jupyter labextension list`
   - `jupyter labextension install my-extension`
@@ -29,7 +33,7 @@
 - build: `jupyter lab clean && jupyter lab build`
 - run: `jupyter lab @`
 
-## nbconvert
+### nbconvert
 `jupyter nbconvert`
 - `--to html` or `--to pdf`
 - `--no-input` - omit imput cells
