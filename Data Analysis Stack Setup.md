@@ -12,6 +12,7 @@
   - list: `conda env list`
   - create: `conda create --name <envname> pyton=3.6 matplotlib`
   - remove: `conda remove --name <envname> --all`
+  - export / clone: `conda env export > my_env.yml` / `conda env create -f my_env.yml`
 - packages
   - search online: `conda search <package-name>`
   - list installed: `conda list` as URLs: `--explicit`
