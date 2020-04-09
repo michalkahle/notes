@@ -1,6 +1,6 @@
 ## apt
-- find online: `apt search <package_name>
-- show details: `apt show <package_name>
+- find online: `apt search <package_name>`
+- show details: `apt show <package_name>`
 - install, remove, remove with config: `apt install <package_name>`, `apt remove <package_name>`, `apt purge <package_name>`
 - refresh repo index: `apt update`
 - upgrade all upgradeable: `apt upgrade`
