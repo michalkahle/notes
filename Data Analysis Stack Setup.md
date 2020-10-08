@@ -7,7 +7,7 @@
 - remove unnecessary: `apt autoremove`
 
 ## Conda
-- add conda-forge to channels with lower priority than `default`: `conda config --append channels conda-forge`
+- add conda-forge to channels: `conda config --append channels conda-forge`
 - environments
   - list: `conda env list`
   - create: `conda create --name <envname> pyton=3.6 matplotlib`
