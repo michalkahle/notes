@@ -25,8 +25,8 @@
 - **remote access:** `ssh -l 8000:localhost:8888 user@host`
 
 ### kernels
-- list: `jupyter kernelspec list`
 - install Python kernel: `conda install ipykernel` followed by `python -m ipykernel install --user --name <env-name>`
+- list: `jupyter kernelspec list`
 
 ### Jupyterlab
 - manage extensions:
