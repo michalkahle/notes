@@ -1,3 +1,6 @@
+## bash
+- check hash: `echo '<hash> <filename>' | sha256sum -c -`
+
 ## apt
 - find online: `apt search <package_name>`
 - show details: `apt show <package_name>`
