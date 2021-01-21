@@ -1,6 +1,7 @@
 ## Linux
 - check hash: `echo '<hash> <filename>' | sha256sum -c -`
-- increase partition size: `lvextend -L+1G /dev/mapper/vg0-usr` and then: `resize2fs /dev/mapper/vg0-usr`
+- check LVM physical volume used and free space: `sudo pvdisplay`
+- increase LV partition size: `lvextend -L+1G /dev/mapper/vg0-usr` and then: `resize2fs /dev/mapper/vg0-usr`
 
 ## apt
 - find online: `apt search <package_name>`
