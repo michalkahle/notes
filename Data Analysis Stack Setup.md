@@ -2,6 +2,9 @@
 - check hash: `echo '<hash> <filename>' | sha256sum -c -`
 - check LVM physical volume used and free space: `sudo pvdisplay`
 - increase LV partition size: `lvextend -L+1G /dev/mapper/vg0-usr` and then: `resize2fs /dev/mapper/vg0-usr`
+- ssh key autentication:
+  - create key pair: `ssh-keygen`
+  - copy id_rsa.pub to server: `ssh-copy-id username@hostname`
 
 ## apt
 - find online: `apt search <package_name>`
