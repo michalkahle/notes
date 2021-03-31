@@ -5,6 +5,7 @@
 - ssh key autentication:
   - create key pair: `ssh-keygen`
   - copy id_rsa.pub to server: `ssh-copy-id username@hostname`
+- turn capslock into escape: `dconf write /org/gnome/desktop/input-sources/xkb-options "['caps:escape']"`
 
 ## apt
 - find online: `apt search <package_name>`
