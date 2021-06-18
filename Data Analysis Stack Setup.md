@@ -1,3 +1,22 @@
+## Package managers
+|                             | apt                | conda  | pip                | npm |
+| ---                         | ---                | ---    | ---                | --- |
+| list installed packages     | `list --installed` |        | `list`             |
+| search for package in repos | `search`           | search | -                  |
+| install package             | `install`          | install| `install`          |install|
+| upgrade package             | -                  |        | `install -U <pkg>` |
+| upgrade all packages        | `upgrade`          |        | -                  |
+| uninstall package           | `remove <pkg>`     |        | `uninstall`        |
+| uninstall including config  | `purge <pkg>`      |        | -                  |
+| show information about pkg  | `show <pkg>`       |        | `show`             |
+
+
+## Virtual environments
+|                             | venv               | conda
+| ---                         | ---                | ---                       |
+| create virtual environment  |                    |create -n `name` [packages]|
+
+
 ## Linux
 - check hash: `echo '<hash> <filename>' | sha256sum -c -`
 - check LVM physical volume used and free space: `sudo pvdisplay`
