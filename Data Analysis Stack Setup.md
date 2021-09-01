@@ -1,14 +1,14 @@
 ## Package managers
-|                             | apt                | conda  | pip                | npm |
-| ---                         | ---                | ---    | ---                | --- |
-| list installed packages     | `list --installed` |        | `list`             |
-| search for package in repos | `search`           | search | -                  |
+|                             | apt                | conda  | pip                | npm   |
+| ---                         | ---                | ---    | ---                | ---   |
+| list installed packages     | `list --installed` |        | `list`             |       |
+| search for package in repos | `search`           | search | NA                 |       |
 | install package             | `install`          | install| `install`          |install|
-| upgrade package             | -                  |        | `install -U <pkg>` |
-| upgrade all packages        | `upgrade`          |        | -                  |
-| uninstall package           | `remove <pkg>`     |        | `uninstall`        |
-| uninstall including config  | `purge <pkg>`      |        | -                  |
-| show information about pkg  | `show <pkg>`       |        | `show`             |
+| upgrade package             | -                  |        | `install -U <pkg>` |       |
+| upgrade all packages        | `upgrade`          |        | NA                 |       |
+| uninstall package           | `remove <pkg>`     |        | `uninstall`        |       | 
+| uninstall including config  | `purge <pkg>`      |        |                    |       |
+| show information about pkg  | `show <pkg>`       |        | `show`             |       |
 
 
 ## Virtual environments
