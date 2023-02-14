@@ -24,6 +24,7 @@
 - ssh key autentication:
   - create key pair: `ssh-keygen`
   - copy id_rsa.pub to server: `ssh-copy-id username@hostname`
+- ssh tunnel (use sudo if local port < 1000): `sudo ssh -L 80:localhost:8888 user@host`
 - turn capslock into escape: `dconf write /org/gnome/desktop/input-sources/xkb-options "['caps:escape']"`
 
 ## apt
@@ -50,7 +51,6 @@
 ### Notebook
 - **install:** `conda install jupyter jupyter_contrib_nbextensions`
 - **cite2c:** `python3 -m pip install cite2c` then `python3 -m cite2c.install` and restart notebook
-- **remote access:** `ssh -l 8000:localhost:8888 user@host`
 
 ### kernels
 - install Python kernel: `conda install ipykernel` followed by `python -m ipykernel install --user --name <env-name>`
