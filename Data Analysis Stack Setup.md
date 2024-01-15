@@ -48,10 +48,6 @@
   - list changes: `conda list --revisions`
 
 ## Jupyter
-### Notebook
-- **install:** `conda install jupyter jupyter_contrib_nbextensions`
-- **cite2c:** `python3 -m pip install cite2c` then `python3 -m cite2c.install` and restart notebook
-
 ### kernels
 - install Python kernel: `conda install ipykernel` followed by `python -m ipykernel install --user --name <env-name>`
 - list: `jupyter kernelspec list`
